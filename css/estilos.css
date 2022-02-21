@@ -1,6 +1,6 @@
 body
 {
-    background: black;
+    background: rgb(15, 12, 44);
     color: #333;
     text-align:center;
     font-family: "Arial";
@@ -11,13 +11,19 @@ body
 
 #cabecera
 {
-    background: url("../imagenes/avicii.png") no-repeat center center cover;
-    color: white;
+    background: rgb(2, 224, 157);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 20;
     padding: 0.5em 0 0.5em 2em;
     border: 1px solid rgb(10, 136, 98);
     box-shadow: 0px 8px 20px 1px rgb(15, 206, 117);
+}
+
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -39,4 +45,11 @@ body
 #container h1
 {
     font-size: 20px;
+}
+#post
+{
+    background: white;
+    padding: 1em;
+    border: 1px solid rgb(10, 136, 98);
+    box-shadow: 0px 8px 20px 1px rgb(15, 206, 117);
 }
